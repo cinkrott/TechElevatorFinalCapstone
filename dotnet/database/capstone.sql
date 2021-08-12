@@ -71,17 +71,17 @@ CREATE TABLE user_log(
 INSERT INTO users (username, password_hash, salt, user_role, email) VALUES ('user','Jg45HuwT7PZkfuKTz6IB90CtWY4=','LHxP4Xh7bN0=','user', 'theofficialbobojones@gmail.com');
 --admin/password
 INSERT INTO users (username, password_hash, salt, user_role, email) VALUES ('admin','YhyGVQ+Ch69n4JMBncM4lNF/i9s=', 'Ar/aB2thQTI=','admin', 'theofficialbobojones@gmail.com');
-INSERT INTO users (username, password_hash, salt, user_role, email) VALUES ('fitnessafficionado14','YhyGVQ+Ch69n4JMBncM4lNF/i9s=', 'Ar/aB2thQTI=','user', 'theofficialbobojones@gmail.com');
-INSERT INTO users (username, password_hash, salt, user_role, email) VALUES ('mjackson55','gYax/nldlps+n/IL3paG1tnX0Jk= ', 'rDaoxV0X3rg=','user', 'theofficialbobojones@gmail.com');
-INSERT INTO users (username, password_hash, salt, user_role, email) VALUES ('jramirez3','aFfNx8CzaVHSfFjSfM4Zx/ehF0c= ', 'lFYlQhiR3/Q=','user', 'theofficialbobojones@gmail.com');
-INSERT INTO users (username, password_hash, salt, user_role, email) VALUES ('S-Ohtani','tF8wj5J9u9pEt7qg9sMi46i5Vwg= ', 'bB2hzm+kWxw=','user', 'theofficialbobojones@gmail.com');
-INSERT INTO users (username, password_hash, salt, user_role, email) VALUES ('Amed-R-5','O0WnyUuipLQayYpF5G4ncL/oR4Q=', 'F4y+FwW1P+Q=','user', 'theofficialbobojones@gmail.com');
-INSERT INTO users (username, password_hash, salt, user_role, email) VALUES ('Mookie-B50','I8YxsZAwEcz4Oiy/4v6H5nUZ6C8=', 'VG1l+Xiboi8=','user', 'theofficialbobojones@gmail.com');
-INSERT INTO users (username, password_hash, salt, user_role, email) VALUES ('AFelixGold','kv6yYuRQmHKJ5aFq5B6qNwZG8+g=', 'FUEq3Hb//qw=','user', 'theofficialbobojones@gmail.com');
-INSERT INTO users (username, password_hash, salt, user_role, email) VALUES ('JConseco1992','3uzzKuAjxA0A/a4a15RtOLxGvyM=', 'kaTEMu7zNjw=','admin', 'theofficialbobojones@gmail.com');
-INSERT INTO users (username, password_hash, salt, user_role, email) VALUES ('MSharipova11','sZUFmSEGWD7TRygtc68rreWiP9o', 'Ys9CrV56YSg=','user', 'theofficialbobojones@gmail.com');
-INSERT INTO users (username, password_hash, salt, user_role, email) VALUES ('KLedecky','pipfCNqnyaPHTPKxoVQ1+Yn7qks=', 'oeY7C+qU448=','user', 'theofficialbobojones@gmail.com');
-INSERT INTO users (username, password_hash, salt, user_role, email) VALUES ('MTrout','qIkLG7VXclqW1COmZdaFR7WVpuY=', 'UaIVI1N6CfQ=','user', 'theofficialbobojones@gmail.com');
+INSERT INTO users (username, password_hash, salt, user_role, email) VALUES ('fitnessafficionado14','YhyGVQ+Ch69n4JMBncM4lNF/i9s=', 'Ar/aB2thQTI=','user', 'ilovefitness@fakeemail');
+INSERT INTO users (username, password_hash, salt, user_role, email) VALUES ('mjackson55','gYax/nldlps+n/IL3paG1tnX0Jk= ', 'rDaoxV0X3rg=','user', 'thriller@fakeemail');
+INSERT INTO users (username, password_hash, salt, user_role, email) VALUES ('jramirez3','aFfNx8CzaVHSfFjSfM4Zx/ehF0c= ', 'lFYlQhiR3/Q=','user', 'homerunpitch@fakeemail');
+INSERT INTO users (username, password_hash, salt, user_role, email) VALUES ('S-Ohtani','tF8wj5J9u9pEt7qg9sMi46i5Vwg= ', 'bB2hzm+kWxw=','user', 'shotime@fakeemail');
+INSERT INTO users (username, password_hash, salt, user_role, email) VALUES ('Amed-R-5','O0WnyUuipLQayYpF5G4ncL/oR4Q=', 'F4y+FwW1P+Q=','user', 'guardianSS@fakeemail');
+INSERT INTO users (username, password_hash, salt, user_role, email) VALUES ('Mookie-B50','I8YxsZAwEcz4Oiy/4v6H5nUZ6C8=', 'VG1l+Xiboi8=','user', 'dodgers@fakeemail');
+INSERT INTO users (username, password_hash, salt, user_role, email) VALUES ('AFelixGold','kv6yYuRQmHKJ5aFq5B6qNwZG8+g=', 'FUEq3Hb//qw=','user', '11timesgold@fakeemail');
+INSERT INTO users (username, password_hash, salt, user_role, email) VALUES ('JConseco1992','3uzzKuAjxA0A/a4a15RtOLxGvyM=', 'kaTEMu7zNjw=','admin', 'oaklandathletics@fakeemail');
+INSERT INTO users (username, password_hash, salt, user_role, email) VALUES ('MSharipova11','sZUFmSEGWD7TRygtc68rreWiP9o', 'Ys9CrV56YSg=','user', 'aceserve@fakeemail');
+INSERT INTO users (username, password_hash, salt, user_role, email) VALUES ('KLedecky','pipfCNqnyaPHTPKxoVQ1+Yn7qks=', 'oeY7C+qU448=','user', 'worldrecord@fakeemail');
+INSERT INTO users (username, password_hash, salt, user_role, email) VALUES ('MTrout','qIkLG7VXclqW1COmZdaFR7WVpuY=', 'UaIVI1N6CfQ=','user', 'outofthepark@fakeemail');
 
 
 --Events
