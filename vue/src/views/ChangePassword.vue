@@ -5,14 +5,20 @@
     <br />
     <br />
     <h4 class="text-center">Change Password</h4>
-     <div id="eventPasswordChanged" class="alert alert-dismissible fade show" role="alert" v-show="isPasswordChanged">Password Changed!
+    <div
+      id="eventPasswordChanged"
+      class="alert alert-dismissible fade show"
+      role="alert"
+      v-show="isPasswordChanged"
+    >
+      Password Changed!
       <button
         type="button"
         class="btn-close"
         data-bs-dismiss="alert"
         aria-label="Close"
       ></button>
-    </div>   
+    </div>
 
     <form @submit.prevent="sendEmail" class="mx-4">
       <div class="row">
@@ -57,11 +63,11 @@
       </div>
       <input class="btn btn-success my-3" type="submit" value="Send" />
     </form>
-    <br>
-    <br>
-    <br>
-    <br>
-     <p class="text-center"> &copy; 2021 Summit Fitness</p>
+    <br />
+    <br />
+    <br />
+    <br />
+    <p class="text-center">&copy; 2021 Summit Fitness</p>
   </div>
 </template>
 

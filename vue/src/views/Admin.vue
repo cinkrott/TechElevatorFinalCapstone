@@ -10,18 +10,29 @@
         >Create Virtual Event</a
       >
     </div>
-    <div id="eventCreatedAlert" class="alert alert-dismissible fade show" role="alert" v-show="isEventCreated">
-    Event Created!
-    <button
+    <div
+      id="eventCreatedAlert"
+      class="alert alert-dismissible fade show"
+      role="alert"
+      v-show="isEventCreated"
+    >
+      Event Created!
+      <button
         type="button"
         class="btn-close"
         data-bs-dismiss="alert"
         aria-label="Close"
         v-on:click="refreshPage"
       ></button>
-      </div>
+    </div>
 
-    <div id="newAdministratorAdded" class="alert alert-dismissible fade show" role="alert" v-show="isAdministratorAdded">New administrator added!
+    <div
+      id="newAdministratorAdded"
+      class="alert alert-dismissible fade show"
+      role="alert"
+      v-show="isAdministratorAdded"
+    >
+      New administrator added!
 
       <button
         type="button"
@@ -75,9 +86,7 @@
         </div>
       </div>
       <div class="text-center my-3">
-        <button class="btn btn-block" type="submit">
-          Create Event
-        </button>
+        <button class="btn btn-block" type="submit">Create Event</button>
       </div>
     </form>
     <table class="table table-hover">
@@ -99,7 +108,6 @@
               class="btn"
               v-on:click="addAdmin(user)"
               v-show="user.role === 'user'"
-
             >
               Make Administrator
             </a>
@@ -107,10 +115,10 @@
         </tr>
       </tbody>
     </table>
-    <br>
-    <br>
-    <br>
-    <p class="text-center"> &copy; 2021 Summit Fitness</p>
+    <br />
+    <br />
+    <br />
+    <p class="text-center">&copy; 2021 Summit Fitness</p>
   </div>
 </template>
 
@@ -152,10 +160,10 @@ export default {
         .catch((error) => {
           console.log(error.response);
         });
-        this.isAdministratorAdded = true;
+      this.isAdministratorAdded = true;
     },
-    refreshPage(){
-     this.$router.go();
+    refreshPage() {
+      this.$router.go();
     },
 
     addEvent() {
@@ -176,17 +184,17 @@ export default {
 </script>
 
 <style>
-#eventCreatedAlert{
-  background-color: #489CA5;
+#eventCreatedAlert {
+  background-color: #489ca5;
   color: white;
 }
 .btn {
-  background-color: #489CA5 !important;
-  outline-color: #2D474D !important;
+  background-color: #489ca5 !important;
+  outline-color: #2d474d !important;
   color: white;
 }
-#newAdministratorAdded{
-  background-color: #489CA5;
+#newAdministratorAdded {
+  background-color: #489ca5;
   color: white;
 }
 </style>
