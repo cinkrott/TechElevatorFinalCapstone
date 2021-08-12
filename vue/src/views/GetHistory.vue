@@ -37,6 +37,10 @@
         </tr>
       </tbody>
     </table>
+    <br>
+    <br>
+    <br>
+    <p class="text-center"> &copy; 2021 Summit Fitness</p>
   </div>
 </template>
 

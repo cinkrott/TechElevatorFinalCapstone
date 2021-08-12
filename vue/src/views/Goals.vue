@@ -171,6 +171,12 @@
         <button class="btn" type="submit">Add Goal</button>
       </div>
     </form>
+    <br>
+    <br>
+     <footer class="text-center">        
+      <p>Photos courtesy of Unsplash.com. Toomas Tartes</p>
+      <p> &copy; 2021 Summit Fitness</p>
+      </footer>
   </div>
 </template>
 

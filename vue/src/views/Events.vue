@@ -10,7 +10,7 @@
       "
     >
       <div class="d-flex justify-content-center align-items-center h-100">
-        <div class="text-black">
+        <div class="text-white">
           <h1 class="mb-3">Events</h1>
         </div>
       </div>
@@ -140,6 +140,15 @@
         </tr>
       </tbody>
     </table>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>        
+      <p class="text-center">Photos courtesy of Unsplash.com. Simon Connellan</p>
+      <p class="text-center"> &copy; 2021 Summit Fitness</p>
+      </footer>
   </div>
 </template>
 

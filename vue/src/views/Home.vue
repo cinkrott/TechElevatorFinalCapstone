@@ -89,7 +89,17 @@
       <router-link :to="{ name: 'login' }" class="btn mx-3">Log In</router-link>
       <br />
       <br />
+      <br>
+      <br>
+      <br>
+      <br>
+      <footer>        
+      <p>Photos courtesy of Unsplash.com. Mad Rabbit Tattoo, Richard R. Schunemann, Fitsum Admasu, Coen van de Broek, Jake Melara</p>
+      <p> &copy; 2021 Summit Fitness</p>
+      </footer>
     </div>
+  
+    
   </div>
 </template>
 

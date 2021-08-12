@@ -57,6 +57,11 @@
       </div>
       <input class="btn btn-success my-3" type="submit" value="Send" />
     </form>
+    <br>
+    <br>
+    <br>
+    <br>
+     <p class="text-center"> &copy; 2021 Summit Fitness</p>
   </div>
 </template>
 
