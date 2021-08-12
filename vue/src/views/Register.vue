@@ -41,11 +41,38 @@
         v-model="user.confirmPassword"
         required
       />
-      <router-link :to="{ name: 'login' }">Have an account?</router-link>
+      <br>
       <button class="btn btn-primary btn-block" type="submit">
         Create Account
       </button>
     </form>
+    <br />
+    <br>
+    <br>
+    <br>
+    <br>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br>
+    <br>
+    <br>
+    <br>
+    <br />
+    <br>
+    <br>
+    <br>
+    <br>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br>
+    <br>
+    <br>
+    <br>
+    <p> &copy; 2021 Summit Fitness</p>
   </div>
 </template>
 

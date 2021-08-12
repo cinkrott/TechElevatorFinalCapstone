@@ -172,6 +172,19 @@
       </div>
     </form>
     <br>
+    <br />
+    <br>
+    <br>
+    <br>
+    <br>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br>
+    <br>
+    <br>
+    <br>
     <br>
      <footer class="text-center">        
       <p>Photos courtesy of Unsplash.com. Toomas Tartes</p>

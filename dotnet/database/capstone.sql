@@ -68,9 +68,9 @@ CREATE TABLE user_log(
 
 --populate default data
 -- user/password
-INSERT INTO users (username, password_hash, salt, user_role, email) VALUES ('user','Jg45HuwT7PZkfuKTz6IB90CtWY4=','LHxP4Xh7bN0=','user', 'theofficialbobojones@gmail.com');
+INSERT INTO users (username, password_hash, salt, user_role, email) VALUES ('user','Jg45HuwT7PZkfuKTz6IB90CtWY4=','LHxP4Xh7bN0=','user', 'user@fakeemail.com');
 --admin/password
-INSERT INTO users (username, password_hash, salt, user_role, email) VALUES ('admin','YhyGVQ+Ch69n4JMBncM4lNF/i9s=', 'Ar/aB2thQTI=','admin', 'theofficialbobojones@gmail.com');
+INSERT INTO users (username, password_hash, salt, user_role, email) VALUES ('admin','YhyGVQ+Ch69n4JMBncM4lNF/i9s=', 'Ar/aB2thQTI=','admin', 'iloveitwhenyoucallmeadmin@fakeemail.com');
 INSERT INTO users (username, password_hash, salt, user_role, email) VALUES ('fitnessafficionado14','YhyGVQ+Ch69n4JMBncM4lNF/i9s=', 'Ar/aB2thQTI=','user', 'ilovefitness@fakeemail');
 INSERT INTO users (username, password_hash, salt, user_role, email) VALUES ('mjackson55','gYax/nldlps+n/IL3paG1tnX0Jk= ', 'rDaoxV0X3rg=','user', 'thriller@fakeemail');
 INSERT INTO users (username, password_hash, salt, user_role, email) VALUES ('jramirez3','aFfNx8CzaVHSfFjSfM4Zx/ehF0c= ', 'lFYlQhiR3/Q=','user', 'homerunpitch@fakeemail');
