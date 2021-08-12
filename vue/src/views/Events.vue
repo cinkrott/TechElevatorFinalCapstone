@@ -25,12 +25,12 @@
       You are signed up for this event!!
       <button
         type="button"
-        class="close btn bg-transparent text-right"
+        class="btn-close"
         data-dismiss="alert"
         aria-label="Close"
         v-on:click="refreshPage"
       >
-        <span aria-hidden="true">&times;</span>
+       
       </button>
     </div>
     <div
@@ -43,12 +43,12 @@
 
       <button
         type="button"
-        class="close btn bg-transparent text-right"
+        class="btn-close"
         data-dismiss="alert"
         aria-label="Close"
         v-on:click="(isProgressUpdated = false), refreshPage()"
       >
-        <span aria-hidden="true">&times;</span>
+       
       </button>
     </div>
     <br />
