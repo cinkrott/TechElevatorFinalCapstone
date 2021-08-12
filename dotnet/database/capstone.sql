@@ -105,8 +105,8 @@ INSERT INTO goals (goal_name, goal_description, goal_type, period_in_days, user_
 INSERT INTO goals (goal_name, goal_description, goal_type, period_in_days, user_id, distance) VALUES ('Half Marathon', 'Run a half marathon', 'Running ', 1, 1, 13);
 INSERT INTO goals (goal_name, goal_description, goal_type, period_in_days, user_id, distance) VALUES ('100K', 'Run 60.2 Miles', 'Running', 5, 1, 60);
 
-INSERT INTO goals (goal_name, goal_description, goal_type, period_in_days, user_id, distance) VALUES ('CycloMadness', 'Long Distance Cylco-Cross Through Columbus', 'Cycling', 5, 2, 200);
-INSERT INTO goals (goal_name, goal_description, goal_type, period_in_days, user_id, distance) VALUES ('Disco INFERNO', 'Funky Dance Competition', 'Aerobics', 5, 2, 50);
+INSERT INTO goals (goal_name, goal_description, goal_type, period_in_days, user_id, distance) VALUES ('CycloMadness', 'Long Distance Cylco-Cross Through Columbus', 'Biking', 5, 2, 200);
+INSERT INTO goals (goal_name, goal_description, goal_type, period_in_days, user_id, distance) VALUES ('The Mountain', 'Bring the right type of backpack', 'Hiking', 5, 2, 50);
 
 INSERT INTO goals (goal_name, goal_description, goal_type, period_in_days, user_id, distance) VALUES ('Pirate Themed Fun Run', 'Race for the buried treasure!', 'Running', 5, 3, 20);
 INSERT INTO goals (goal_name, goal_description, goal_type, period_in_days, user_id, distance) VALUES ('Roller Derby', 'Get the Pads on and Blades rolling', 'Inline Skating', 5, 3, 30);
